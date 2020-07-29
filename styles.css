@@ -155,11 +155,35 @@ a {
 .home-text {
   position: absolute;
   left: 5%;
-  max-width: 100%;
+  
 }
 
 .name {
   font-size: calc(10vw + 1rem);
+}
+.typing {
+  position: relative;
+  margin-left: 10px;
+}
+
+.typing::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  border-right: 2px solid #fff;
+  top: 0;
+  right: -5px;
+  animation: blink 0.8s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* about */
