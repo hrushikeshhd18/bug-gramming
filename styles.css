@@ -188,9 +188,9 @@ a {
 
 /* about */
 .profile {
-  max-width: 400%;
+  max-width: 800%;
   max-height: 800px;
-  border-radius: 200%;
+  border-radius: 300%;
 }
 
 /* skills */
