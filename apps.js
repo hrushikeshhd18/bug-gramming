@@ -1,4 +1,4 @@
-const txtSet = ["Front-end Developer", "Back-end Developer", "Android Developer"];
+const txtSet = ["Front-end Development", "Back-end Development", "Android Development","Controlling complexity is the essence of computer programming","You can’t trust code that you did not totally create yourself"];
 let count = 0;
 let index = 0;
 let currTxt = "";
